@@ -50,8 +50,9 @@ class BayesNet:
         Returns:
             Dict: {Node:0/1} mappings for all nodes.
         """ 
+        new = sample.copy()
         # TODO: 4.2       
-        pass
+        return new
 
     """
     4.3 Generate a list of samples given evidence and estimate the distribution.
@@ -67,7 +68,7 @@ class BayesNet:
             List[float]: List of corresponding weights.
         """       
         # TODO: 4.3
-        pass
+        return [], []
 
     def estimate_dist(self, node: Node, samples: list[dict], weights: list[float]):
         """
@@ -79,4 +80,4 @@ class BayesNet:
             Tuple(float, float): Estimated distribution of node variable.
         """           
         # TODO: 4.3
-        pass
+        return (0,0)
