@@ -21,14 +21,6 @@ class BayesNet:
         for n in self.nodes:
             for p in n.parents:
                 p.children.add(n)
-    
-    def add_node(self, node: Node):
-        if set(node.parents) <= set(self.nodes):
-            self.nodes.append(node)
-            for p in node.parents:
-                p.children.add(node)
-        else:
-            print("Node not added - parents not in Bayes net")
 
 
     """
