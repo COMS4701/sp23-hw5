@@ -13,8 +13,8 @@ python -m venv .venv
 .venv\scripts\activate
 
 # alternatively, using conda
-conda create -n hw4env python=3.9 pip
-conda activate hw4env
+conda create -n hw5env python=3.8 pip
+conda activate hw5env
 ```
 
 2. Install poetry
