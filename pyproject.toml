@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw5"
+version = "0.1.0"
+description = "COMSW4701 HW5 Programming"
+authors = ["Neil Nie <neil.nie@columbia.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
